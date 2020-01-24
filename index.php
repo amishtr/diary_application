@@ -6,6 +6,7 @@
  * Author: Amish Trivedi
  * Date developed: 12-Nov-2019
  * Version: 1.0
+ * YO
  */
 
 // Remove error reporting messages from the page
