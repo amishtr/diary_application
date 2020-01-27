@@ -60,11 +60,9 @@ $userName = $row["userName"];
     <script type="text/javascript" src="js/simditor.js"></script>
 
 <style>
-
   body {
     background-color: #F8F8F8;
   }
-
 </style>
 </head>
 
