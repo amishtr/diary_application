@@ -21,14 +21,14 @@ $errorMsg .= "Something went wrong, please try again later.";
 //$data['error'] = $errorMsg;
 $successMsg .= "The story has been saved in the system.";
 
-    //$errorMsg .= '<div class="alert alert-danger" role="alert" style="text-align: center;">The story field cannot be empty. Please write or update your story to SAVE.';  
-     
-    $query = "SELECT `userStory`, `userName` FROM `users` WHERE userEmail = '".$_SESSION['userEmail']."'";
-      
-    $result = mysqli_query($conn, $query);    
-    $row = mysqli_fetch_assoc($result);  
-    $value = $row["userStory"]; 
-    $userName = $row["userName"]; 
+//$errorMsg .= '<div class="alert alert-danger" role="alert" style="text-align: center;">The story field cannot be empty. Please write or update your story to SAVE.';  
+  
+$query = "SELECT `userStory`, `userName` FROM `users` WHERE userEmail = '".$_SESSION['userEmail']."'";
+  
+$result = mysqli_query($conn, $query);    
+$row = mysqli_fetch_assoc($result);  
+$value = $row["userStory"]; 
+$userName = $row["userName"]; 
 
 ?>
 
