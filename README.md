@@ -1,6 +1,6 @@
 # PHP Diary Web Application
 
-Created by: Amish Trivedi | Last Updated Date: 27-Jan-2020
+Created by: Amish Trivedid | Last Updated Date: 27-Jan-2020
 
 ## Overview:
 The aim of the application is to keep your thoughts organised, set and achieve your goals and allow yourself to self-reflect and boost your memory.
