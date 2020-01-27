@@ -41,7 +41,7 @@ $error = "";
       //check if user exists
       if(mysqli_num_rows($result) < 1){  
         
-        $error = '<div class="alert alert-danger" role="alert">Sorry, the email <b>' .$_POST["user_email"]. '</b> or the password is incorrect. Please input the correct credentials to login.</div>';
+        $error = '<div class="alert alert-danger" role="alert">Sorry, the email <b>' .$_POST["user_email"]. $_POST['user_name']. '</b> or the password is incorrect. Please input the correct credentials to login.</div>';
       
       } else {
           $row = mysqli_fetch_assoc($result);
@@ -51,7 +51,7 @@ $error = "";
         } else {
           $_SESSION['userEmail'] = $_POST['user_email'];           
           $row = mysqli_fetch_assoc($result);
-          $_SESSION['userName'] = $_POST['userName'];   
+          $_SESSION['userName'] = $_POST['user_name'];   
           header("Location: index.php");
         }
       }   
@@ -101,31 +101,10 @@ $error = "";
                 <input type="text" class="form-control mb-2" id="user_email" name="user_email" placeholder="Email" required autofocus>
                 <input type="password" class="form-control mb-2" id="user_password" name="user_password" placeholder="Password" required>
                 <button class="btn btn-lg btn-primary btn-block mb-1" type="submit">Sign in</button>                
-                <a href="#" class="float-right" data-toggle="modal" data-target="#myModal">Need help?</a>
+                <a href="signup.php" class="float-right">Register an account</a>
               </form>
             </div>
           </div>
-        </div>
-      </div>      
-    </div>
-  </div>
-</div>
-
-<!-- Modal -->
-<div class="container-fluid">
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">          
-          <h4 class="modal-title"><span style="text-align: left;">Login Error?</span></h4>
-        </div>
-        <div class="modal-body">
-          <p>Please email us at <span style="font-style: italic; text-decoration: underline;"> trivedia@support.com </span> department for system access.</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
         </div>
       </div>      
     </div>
