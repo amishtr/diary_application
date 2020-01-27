@@ -7,11 +7,7 @@ The aim of the application is to keep your thoughts organised, set and achieve y
 * Download the files from the diary_application repository to your system.
 * Install the local server environment [MAMP](https://www.mamp.info/en/).  
 * Copy the downloaded files to C:\MAMP\htdocs directory.
-* Open MAMP and start the server(s). 
-  
-  Please see below screenshot as a confirmation.  
-
-
+* Open MAMP and start the servers. 
 * Open your broweser (e.g. Google Chrome).
 * Copy the URL (e.g. http://localhost:82/Secret_Diary/login.php) and paste it on your address bar to access the application.
 
