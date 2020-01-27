@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * Filename: insertStory.php
+ * Description: Diary Web Application
+ * Author: Amish Trivedi
+ * Date developed: 12-Nov-2019
+ * Version: 1.0
+ */
+
 session_start();
 include 'connection.php';
 

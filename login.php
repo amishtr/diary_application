@@ -2,7 +2,7 @@
 
 /**
  * Filename: login.php
- * Description: Diary Web App
+ * Description: Diary Web Application
  * Author: Amish Trivedi
  * Date developed: 12-Nov-2019
  * Version: 1.0
@@ -110,29 +110,7 @@ $error = "";
     </div>
   </div>
 </div>
-
-<!--- <div class="container mt-5">
-  <div id="error"><? echo $error; ?></div>
-    <div class="row">
-      <div class="col-sm"></div>
-      <div class="col-sm">
-    <form method="post" novalidate>
-      <div class="form-group">
-        <label for="email">Email address</label>
-        <input type="email" class="form-control border border-secondary" id="user_email" name="user_email" style="width:400px;" aria-describedby="emailHelp" placeholder="Enter email">
-        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-      </div>
-      <div class="form-group">
-        <label for="password">Password</label>
-        <input type="password" class="form-control border border-secondary" id="user_password" name="user_password" style="width:400px;" placeholder="Password">
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
-      </div>
-      <div class="col-sm"></div>
-    </div>
-</div> --->
-    
+   
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

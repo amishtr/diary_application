@@ -2,7 +2,7 @@
 
 /**
  * Filename: index.php
- * Description: Diary Web App
+ * Description: Diary Web Application
  * Author: Amish Trivedi
  * Date developed: 12-Nov-2019
  * Version: 1.0

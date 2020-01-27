@@ -1,8 +1,8 @@
 <?php
 
 /**
- * Filename: signUp.php
- * Description: Diary Web App
+ * Filename: signup.php
+ * Description: Diary Web Application
  * Author: Amish Trivedi
  * Date developed: 17-Jan-2020
  * Version: 1.0

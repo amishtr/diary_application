@@ -2,7 +2,7 @@
 
 /**
  * Filename: connection.php
- * Description: Diary Web App
+ * Description: Diary Web Application
  * Author: Amish Trivedi
  * Date developed: 12-Nov-2019
  * Version: 1.0
@@ -20,6 +20,5 @@ $conn = mysqli_connect($servername, $username, $password, $db);
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
-//echo "Connected successfully";
 
 ?>
