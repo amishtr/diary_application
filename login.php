@@ -51,7 +51,7 @@ $error = "";
         } else {
           $_SESSION['userEmail'] = $_POST['user_email'];           
           $row = mysqli_fetch_assoc($result);
-          $_SESSION['userName'] = $_POST['user_name'];   
+          //$_SESSION['userName'] = $_POST['user_name'];   
           header("Location: index.php");
         }
       }   

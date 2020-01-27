@@ -23,11 +23,12 @@ $successMsg .= "The story has been saved in the system.";
 
     //$errorMsg .= '<div class="alert alert-danger" role="alert" style="text-align: center;">The story field cannot be empty. Please write or update your story to SAVE.';  
      
-    $query = "SELECT `userStory` FROM `users` WHERE userEmail = '".$_SESSION['userEmail']."'";
+    $query = "SELECT `userStory`, `userName` FROM `users` WHERE userEmail = '".$_SESSION['userEmail']."'";
       
     $result = mysqli_query($conn, $query);    
     $row = mysqli_fetch_assoc($result);  
     $value = $row["userStory"]; 
+    $userName = $row["userName"]; 
 
 ?>
 
@@ -98,7 +99,7 @@ $successMsg .= "The story has been saved in the system.";
 <div class="container mt-4">
   <div class="text-center">
   <h3><?php if(!$_SESSION['userEmail'] == '') {
-              echo "Welcome, " .$_SESSION['userName']. " to your homepage.";
+              echo "Welcome, " .$userName. " to your homepage.";
             } else {
               header("Location: login.php");
       }?>
