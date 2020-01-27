@@ -18,9 +18,9 @@ $errorMsg = "";
 $successMsg = "";
 
 $errorMsg .= "Something went wrong, please try again later.";
-//$data['error'] = $errorMsg;
 $successMsg .= "The story has been saved in the system.";
 
+//$data['error'] = $errorMsg;
 //$errorMsg .= '<div class="alert alert-danger" role="alert" style="text-align: center;">The story field cannot be empty. Please write or update your story to SAVE.';  
   
 $query = "SELECT `userStory`, `userName` FROM `users` WHERE userEmail = '".$_SESSION['userEmail']."'";
