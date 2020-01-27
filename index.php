@@ -79,13 +79,7 @@ $userName = $row["userName"];
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Page 1</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Page 2</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Page 3</a>
+        <a class="nav-link" href="#">Chart</a>
       </li>
     </ul>
     <div class="my-2 my-lg-0">       
