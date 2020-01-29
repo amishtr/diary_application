@@ -1,4 +1,4 @@
-# PHP Diary Web Application
+# PHP MySQL Diary Web Application
 
 Created by: Amish Trivedi | Last Updated Date: 27-Jan-2020
 
