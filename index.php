@@ -79,7 +79,7 @@ $userName = $row["userName"];
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="http://localhost:82/chartjs_bar_graph/" target="_blank">Dashboard</a>
+        <a class="nav-link" href="http://localhost:82/ChartJs_Secret_Diary/" target="_blank">Dashboard</a>
       </li>
     </ul>
     <div class="my-2 my-lg-0">       
